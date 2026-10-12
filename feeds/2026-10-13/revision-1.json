@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "feed_id": "SPARKDOCK-FEED-20261013",
+  "issue_date": "2026-10-13",
+  "generated_at": "2026-10-12T09:18:13+00:00",
+  "expires_at": "2026-10-20T23:59:59+08:00",
+  "source": "Scott",
+  "revision": 1,
+  "items": [
+    {
+      "item_id": "SPARKDOCK-FEED-20261013-news-blazor-agentic-ui",
+      "title": "近期回顾：Blazor 实验性 AI 组件支持工具调用、人工审批与共享状态",
+      "summary": "发布时间：微软官方文章发表于 2026-09-28，仅给出日期，未给出具体时间及发布时区，因此 source_published_at 为 null。本条是面向 2026-10-13 的近期回顾，不是当日新闻。\n内容与技术栈：实验性 Blazor AI 组件把流式回复、工具调用、人工审批和类型化共享状态映射到界面，可与 Microsoft.Extensions.AI、AG-UI 配合使用。文章示例基于 C#、.NET 11 RC1、Blazor，以及预发布的 Microsoft.AspNetCore.Components.AI 组件包。\n实际价值（编辑判断）：可用于研究操作前需要人工确认、状态变化可见的 .NET 智能体界面。\n风险与边界：Blazor 组件仍标为 experimental，示例依赖预发布组件，不能据此宣称已适合稳定生产使用；组件状态与 AG-UI SDK 的稳定状态应分开判断。已于 2026-10-12 阅读官方原文；未下载、安装或运行示例，兼容性、审批行为与集成收益未经实测。",
+      "source": "Microsoft .NET Blog",
+      "category": "AI / .NET",
+      "source_url": "https://devblogs.microsoft.com/dotnet/build-agentic-ui-blazor/",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "AI",
+        ".NET",
+        "Blazor",
+        "人工审批"
+      ],
+      "relevance": 1,
+      "deleted": false
+    },
+    {
+      "item_id": "SPARKDOCK-FEED-20261013-news-csharp-dev-kit",
+      "title": "近期回顾：C# Dev Kit 11.0 预发布版重构，关注启动、构建与内存",
+      "summary": "发布时间：微软官方文章发表于 2026-10-06，仅给出日期，未给出具体时间及发布时区，因此 source_published_at 为 null。本条是面向 2026-10-13 的近期回顾，不是当日新闻。\n内容与技术栈：C# Dev Kit 11.0 预发布版通过项目缓存、优先加载当前文件及 Native AOT 单服务进程改善大型解决方案体验，涉及 C#、.NET、VS Code 开发工具链。\n证据范围：官方在 Orleans、Roslyn、Aspire 样本中的 Dev Kit 服务进程内存分别下降约 84%、81%、85%；这些数字不包含 Roslyn 语言服务和 VS Code 自身内存，不能推广为整个开发环境的内存降幅。\n实际价值（编辑判断）：适合关注大型 .NET 工程工具性能的开发者作为评估参考。\n风险与边界：版本仍处于预发布阶段，实际收益取决于具体工程。已于 2026-10-12 阅读官方文章；未安装扩展、未运行构建或性能测试。",
+      "source": "Microsoft .NET Blog",
+      "category": ".NET / 开发工具",
+      "source_url": "https://devblogs.microsoft.com/dotnet/faster-lighter-csharp-dev-kit/",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        ".NET",
+        "C#",
+        "VS Code",
+        "Native AOT"
+      ],
+      "relevance": 1,
+      "deleted": false
+    },
+    {
+      "item_id": "SPARKDOCK-FEED-20261013-project-wpf-ui",
+      "title": "GitHub 常青精选：WPF UI，为 WPF 桌面应用提供 Fluent 风格控件",
+      "summary": "项目定位：lepoco/wpfui 是已有项目的常青精选，不是当日创建或发布的新项目；本条没有单一文章发布时间，source_published_at 为 null。\n完整技术栈：C#、.NET、WPF、XAML、Fluent 风格控件与主题；NuGet 包名 WPF-UI。提供导航、NumberBox、Dialog、Snackbar 等常见界面组件。\n许可证：已读取固定提交 ffebacd61058170cf63864b7d5aa730cffff848a 下的 LICENSE，库声明 MIT License；第三方字体及资源不能自动按该库许可处理，README 单独提示 Segoe Fluent Icons 的分发限制。许可证原文：https://github.com/lepoco/wpfui/blob/ffebacd61058170cf63864b7d5aa730cffff848a/LICENSE\nStars 与采集时间：9,691 Stars，来自 2026-10-12T08:45:17.683Z 至 2026-10-12T08:45:18.215Z 的 GitHub API 快照；不是实时数值或质量评分。\n维护证据：仓库未归档；采集时最新正式 Release 为 4.3.0，发布于 2026-05-04T12:23:15Z；默认分支最新提交为 2026-06-27T13:58:28Z。不能描述为当前高频维护，也不能仅凭这段间隔断言停止维护；仓库 updated_at 不等于代码提交时间。Release：https://github.com/lepoco/wpfui/releases/tag/4.3.0\n实际价值（编辑判断）：可作为现有 WPF 桌面工具界面现代化候选，优先评估导航、对话框、数值输入及主题切换，减少重复搭建常见 UI 的工作；该收益尚未通过集成验证。\n风险与边界：选型前须核对目标框架、所需控件、未解决缺陷和资源许可；未完整审查问题响应、安全公告、全部分支或依赖。已读公开仓库、README、LICENSE、Release 和提交元数据；未安装、编译或运行，兼容性、视觉效果与升级代价均未实测。",
+      "source": "GitHub / lepoco/wpfui",
+      "category": "GitHub / 桌面开发",
+      "source_url": "https://github.com/lepoco/wpfui",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "GitHub",
+        "C#",
+        ".NET",
+        "WPF",
+        "XAML"
+      ],
+      "relevance": 1,
+      "deleted": false
+    },
+    {
+      "item_id": "SPARKDOCK-FEED-20261013-project-opcua-dotnet",
+      "title": "工业与 GitHub：OPC Foundation .NET Stack 2.0.1 于 10 月 12 日发布",
+      "summary": "版本时间：2.0.1 正式 Release 发布于 2026-10-12T03:57:39Z；source_url 直接指向这次 Release，source_published_at 使用对应精确时间。该项目本身不是当天创建；本条面向 2026-10-13 阅读。\n完整技术栈：C#、.NET；README 列出的运行目标包括 .NET 10、9、8 及 .NET Framework 4.8；覆盖 OPC UA Client、Server、PubSub、GDS，使用 UA-TCP / HTTPS；NuGet 包名 OPCFoundation.NetStandard.Opc.Ua。仓库：https://github.com/OPCFoundation/UA-.NETStandard\n许可证：已读取 2.0.1 的 LICENSE.txt，标题为 OPC Foundation MIT License 1.00，正文含授权及保留版权、许可通知的条件；GitHub API 自动分类为 Other / NOASSERTION，两者分别保留。许可证原文：https://github.com/OPCFoundation/UA-.NETStandard/blob/2.0.1/LICENSE.txt\nStars 与采集时间：2,406 Stars，来自 2026-10-12T08:45:17.684Z 至 2026-10-12T08:45:18.174Z 的 GitHub API 快照；不是实时数值或质量评分。\n维护证据：仓库未归档，2026-10-12 既有正式 Release，也有默认分支新提交。master 最新提交时间为 2026-10-12T08:39:27Z，晚于 2.0.1 发布时间，不能把该提交的性能或行为改动自动算作 2.0.1 内容。\n实际价值（编辑判断）：可作为 C# 工业数据采集、OPC UA 设备接入及客户端/服务端互通实验的参考基础，利用官方样例理解工作流；现场适用性尚未验证。\n风险与边界：1.x 到 2.x 存在破坏性 API 变更，部分扩展包仍有独立预览版本。README 部分预览段落仍提到等待 2.0.0，版本状态以已核验的 Release 元数据为依据。迁移前应审阅官方指南并在隔离测试环境验证；未完整审查依赖或安全公告。已读公开仓库、README、2.0.1 LICENSE、Release 与提交元数据；未连接工业设备、未安装、编译或运行，不对生产兼容性、实时性、安全认证适用范围或现场可靠性作保证。",
+      "source": "GitHub / OPCFoundation/UA-.NETStandard",
+      "category": "工业 / OPC UA",
+      "source_url": "https://github.com/OPCFoundation/UA-.NETStandard/releases/tag/2.0.1",
+      "source_published_at": "2026-10-12T03:57:39Z",
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "工业自动化",
+        "OPC UA",
+        ".NET",
+        "GitHub",
+        "版本发布"
+      ],
+      "relevance": 1,
+      "deleted": false
+    }
+  ],
+  "checksum": "9362028fa68b1760e443a9621bc862d8ad23803bbaaecd089daf6e0c5c0d74ec"
+}
