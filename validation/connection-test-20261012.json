@@ -1,0 +1,9 @@
+{
+  "project_id": "SPARKDOCK-FEED",
+  "purpose": "GitHub文件写入与读取连通性测试",
+  "test_id": "connection-test-20261012",
+  "created_at": "2026-10-12T08:52:17Z",
+  "message": "你好，SparkDock。此文件仅含公开测试文字。",
+  "contains_private_data": false,
+  "production_feed": false
+}
