@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "feed_id": "SPARKDOCK-FEED-20261014",
+  "issue_date": "2026-10-14",
+  "generated_at": "2026-10-13T15:28:07Z",
+  "expires_at": "2026-10-21T00:00:00+08:00",
+  "source": "Scott",
+  "revision": 1,
+  "items": [
+    {
+      "item_id": "SPARKDOCK-FEED-20261014-news-durable-task",
+      "title": "微软新文：Durable Task 如何帮助 .NET 长流程和 AI 审批在中断后继续",
+      "summary": "发布时间：微软官方文章发表于 2026-10-12，仅显示日期，未提供具体时间和发布时区，未补造具体时刻。本条面向 2026-10-14 阅读，并非当天新闻。\n内容与技术栈：文章使用 C#、Durable Task .NET SDK 1.26.0 与 Durable Task Scheduler，讨论人工审批、云资源开通、支付恢复、Webhook 和 AI 事故处理。持久编排可保存流程进度并恢复等待，但外部操作是否成功仍由应用核对；AI 方案与审批需保持稳定对应。\n推荐理由（编辑判断）：适合设计 .NET 长任务和人工审批智能体时厘清恢复边界。\n风险与核验：官方明确片段不是完整、已编译测试的工程；持久历史不保证外部操作恰好执行一次，恢复后仍须核对授权和不确定副作用。2026-10-13 已阅读官方正文；未安装或运行，未验证集成收益。",
+      "source": "Microsoft .NET Blog",
+      "category": "AI / .NET",
+      "source_url": "https://devblogs.microsoft.com/dotnet/durable-task-in-the-real-world/",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "AI",
+        ".NET",
+        "Durable Task",
+        "故障恢复"
+      ],
+      "relevance": 1,
+      "deleted": false
+    },
+    {
+      "item_id": "SPARKDOCK-FEED-20261014-news-mstest-winui",
+      "title": "近期回顾：MSTest 统一 UWP 与 WinUI 3 UI 测试，关注真实 UI 线程",
+      "summary": "发布时间：微软官方文章发表于 2026-10-05，仅显示日期，未提供具体时间和发布时区，未补造具体时刻。本条是面向 2026-10-14 的近期回顾，非当日新闻。\n内容与技术栈：C#、.NET 10、MSTest 4.5、Microsoft.Testing.Platform 2.5、UWP 与 WinUI 3。文章说明如何通过应用真实 UI dispatcher 执行异步测试、初始化及清理，并按打包、未打包或 AppContainer 模型启动测试宿主；仅建立 STA 线程并不足够。\n推荐理由（编辑判断）：适合 Windows 桌面工具团队整理 UI 测试和 CI 配置。\n风险与核验：打包宿主须核对侧载策略、依赖运行时和非提权执行要求，应在实际 CI 镜像验证退出码及宿主行为，不能把构建成功等同于测试链路已验证。2026-10-13 已阅读官方正文；未安装或执行。",
+      "source": "Microsoft .NET Blog",
+      "category": ".NET / 桌面测试",
+      "source_url": "https://devblogs.microsoft.com/dotnet/testing-uwp-and-winui-3-apps-with-mstest/",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        ".NET",
+        "WinUI 3",
+        "UWP",
+        "MSTest",
+        "CI"
+      ],
+      "relevance": 1,
+      "deleted": false
+    },
+    {
+      "item_id": "SPARKDOCK-FEED-20261014-project-opencvsharp",
+      "title": "视觉与 GitHub：OpenCvSharp 5.0.0.20261012 发布，新增 Android 运行时支持",
+      "summary": "版本时间：正式 Release 发布于 2026-10-12T11:09:11Z；本条面向 2026-10-14 阅读，项目并非当天创建。\n技术栈与变化：C#、.NET 8+、OpenCV 5.0.x、原生绑定及 NuGet；此次发布新增 CI 支持的 Android runtime、intensity_transform 与 fuzzy transform 绑定。OpenCvSharp4 另保留旧运行时适配。仓库：https://github.com/shimat/opencvsharp\n许可证：已读取发布标签 LICENSE，为 Apache-2.0；原生运行时捆绑的 FFmpeg 等第三方依赖须分别核对许可。原文：https://github.com/shimat/opencvsharp/blob/5.0.0.20261012/LICENSE\nStars：6,114；GitHub API 快照采集区间为 2026-10-13T15:23:36.349Z 至 2026-10-13T15:23:36.882Z，非实时值或质量评分。\n维护证据：仓库未归档；默认分支最新提交时间为 2026-10-13T07:07:43Z，晚于此次 Release，新增 ccalib 绑定不能计入本次发布。\n推荐理由（编辑判断）：适合作为 C# 图像处理、视觉原型和桌面图像工具的候选基础。\n风险与核验：原生 runtime 是必要组成，不同平台、架构及完整/精简包模块范围不同；默认不支持 CUDA。4→5 迁移须核对框架、包名和 API 变化。2026-10-13 已读仓库、README、LICENSE、Release 与提交元数据；未安装、编译或运行，性能及兼容性未经实测，也未完整审查依赖与安全公告。",
+      "source": "GitHub / shimat/opencvsharp",
+      "category": "GitHub / 机器视觉",
+      "source_url": "https://github.com/shimat/opencvsharp/releases/tag/5.0.0.20261012",
+      "source_published_at": "2026-10-12T11:09:11Z",
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "GitHub",
+        "C#",
+        ".NET",
+        "OpenCV",
+        "机器视觉"
+      ],
+      "relevance": 1,
+      "deleted": false
+    },
+    {
+      "item_id": "SPARKDOCK-FEED-20261014-project-nmodbus",
+      "title": "GitHub 常青精选：NModbus，为 C# 工业通信提供 Modbus 协议实现",
+      "summary": "项目定位：NModbus 是既有项目的常青精选，非当日创建或发布；无单一文章发布时间，未补造具体时刻。\n技术栈：C#、.NET；主库目标为 .NET Framework 4.6、.NET Standard 1.3/2.0 和 .NET 6。README 列出串行 ASCII、RTU、TCP 与 UDP，可用于设备通信和自定义功能码处理。\n许可证：已读取固定提交 baddfca14e2852373a238aee8d234d6627983b20 的 LICENSE.txt，为 MIT。原文：https://github.com/NModbus/NModbus/blob/baddfca14e2852373a238aee8d234d6627983b20/LICENSE.txt\nStars：1,094；GitHub API 快照采集区间为 2026-10-13T15:22:48.824Z 至 2026-10-13T15:22:49.274Z，非实时值或质量评分。\n维护证据：仓库未归档；默认分支最新提交为 2026-06-30T15:59:15Z，修复连接关闭事件处理。GitHub Releases 列表为空，不能据此声称有最新正式 Release，也不能仅凭提交间隔断言停止维护；仓库 updated_at 不是代码提交时间。\n推荐理由（编辑判断）：可作为 C# 上位机采集、Modbus 通信实验和协议层封装的参考。\n风险与核验：串口接入、设备寄存器约定、异常恢复及部署依赖须分别验证。2026-10-13 已读公开仓库、README、主库项目文件、固定提交 LICENSE 和提交元数据；未连接工业设备、安装、编译或运行，不保证现场实时性、安全性或可靠性，未完整审查依赖与安全公告。",
+      "source": "GitHub / NModbus/NModbus",
+      "category": "GitHub / 工业通信",
+      "source_url": "https://github.com/NModbus/NModbus",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "GitHub",
+        "工业自动化",
+        "Modbus",
+        "C#",
+        ".NET"
+      ],
+      "relevance": 1,
+      "deleted": false
+    }
+  ],
+  "checksum": "8048af1744048dde797036a29ac4cc37a8cf4708d8d2ddc32f824b5a363ceb98"
+}
