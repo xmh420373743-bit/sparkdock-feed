@@ -1,8 +1,8 @@
 {
   "manifest_version": 1,
-  "feed_id": "SPARKDOCK-FEED-20261013",
-  "issue_date": "2026-10-13",
+  "feed_id": "SPARKDOCK-FEED-20261014",
+  "issue_date": "2026-10-14",
   "revision": 1,
-  "feed_path": "feeds/2026-10-13/revision-1.json",
-  "checksum": "9362028fa68b1760e443a9621bc862d8ad23803bbaaecd089daf6e0c5c0d74ec"
+  "feed_path": "feeds/2026-10-14/revision-1.json",
+  "checksum": "8048af1744048dde797036a29ac4cc37a8cf4708d8d2ddc32f824b5a363ceb98"
 }
