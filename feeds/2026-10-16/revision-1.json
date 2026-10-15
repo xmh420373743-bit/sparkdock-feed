@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "feed_id": "SPARKDOCK-FEED-20261016",
+  "issue_date": "2026-10-16",
+  "generated_at": "2026-10-15T13:07:37Z",
+  "expires_at": "2026-10-23T00:00:00+08:00",
+  "source": "Scott",
+  "revision": 1,
+  "items": [
+    {
+      "item_id": "SPARKDOCK-FEED-20261016-closedxml",
+      "title": "ClosedXML：把 .NET 生产数据整理成 Excel 报表",
+      "summary": "栏目：常青项目。阅读期日为2026-10-16；本次核验于2026-10-15，未将期日作为新闻发布日期。\n用 C# 读写 .xlsx/.xlsm，适合将设备采集结果、质量记录或班次统计导出为 Excel；无需依赖 Excel 应用程序。\n推荐理由与最小实验（编辑判断）：先用脱敏样本生成一份带表头、格式和公式的日报，检查目标办公软件里的显示效果。\n技术栈：C# / .NET。当前代码许可证：MIT。\nStar：5743，采集时间 2026-10-15T13:04:51Z（UTC）。维护：默认分支最近提交为 2026-09-18 23:45:24 UTC，修复行号解析溢出检查；仓库未归档。\n风险与门槛：官方说明并非线程安全；大表要评估内存和生成耗时，避免多个线程共享同一工作簿。\n官方同时提示公共 API 尚不稳定，升级前应阅读迁移指南并验证工作簿兼容性。\n核实状态：已阅读官方来源；未安装、运行或实测，不代表现场兼容性或生产适用性已验证。",
+      "source": "GitHub / closedxml",
+      "category": "GitHub 工程项目",
+      "source_url": "https://github.com/ClosedXML/ClosedXML",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "常青项目",
+        ".NET"
+      ],
+      "relevance": 0.95,
+      "deleted": false
+    },
+    {
+      "item_id": "SPARKDOCK-FEED-20261016-polly",
+      "title": "Polly：为 .NET 外部调用加上重试、超时与熔断",
+      "summary": "栏目：常青项目。阅读期日为2026-10-16；本次核验于2026-10-15，未将期日作为新闻发布日期。\n把重试、超时、限流和熔断组合成韧性管道，适合设备网关访问上层 HTTP 服务时处理短暂故障。\n推荐理由与最小实验（编辑判断）：选一条只读调用，明确总超时、重试次数与抖动退避，再观察故障时的请求量。\n技术栈：C# / .NET。当前代码许可证：BSD-3-Clause。\nStar：14246，采集时间 2026-10-15T13:04:51Z（UTC）。维护：默认分支最近提交为 2026-10-15 10:02:27 UTC，清理过时测试包引用；仓库未归档。\n风险与门槛：超时依赖被调用代码配合取消；写设备或提交业务操作前应先验证幂等性。README 公告：2026-11-16 后发布的下一大版本，对直接引用 Polly 且相关产品/项目收入至少 2 万美元的公司提出每月 20 美元维护费；现有版本和间接依赖不适用，升级前复核公告。\n核实状态：已阅读官方来源；未安装、运行或实测，不代表现场兼容性或生产适用性已验证。",
+      "source": "GitHub / polly",
+      "category": "GitHub 工程项目",
+      "source_url": "https://github.com/App-vNext/Polly",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "常青项目",
+        ".NET"
+      ],
+      "relevance": 0.95,
+      "deleted": false
+    },
+    {
+      "item_id": "SPARKDOCK-FEED-20261016-nvidia-simready",
+      "title": "NVIDIA：机器人 CAD 到可验证仿真资产的五步流程",
+      "summary": "栏目：近期文章。阅读期日为2026-10-16；本次核验于2026-10-15，未将期日作为新闻发布日期。\n官方发布日期：2026-10-08；未取得准确发布时间及发布时区，时间字段留空。\n以 ABB YuMi 为例，串起 STEP 导入、外观校验、物理属性配置、SimReady 验证和 Isaac Sim 抓放测试；AI 辅助调用工具，每一步保留检查点。\n推荐理由与最小实验（编辑判断）：做工业数字孪生时，可借用它的资产验收清单：单位、关节轴与限位、质量惯量、碰撞几何，以及实际任务轨迹。\n风险与门槛：文中质量、摩擦等包含估算且未与实机标定；通过仿真检查不代表真实动力学吻合，也不等于所有姿态的碰撞安全。\n核实状态：已阅读官方来源；未安装、运行或实测，不代表现场兼容性或生产适用性已验证。",
+      "source": "NVIDIA Technical Blog",
+      "category": "AI与工程技术资讯",
+      "source_url": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "近期文章",
+        "工业仿真"
+      ],
+      "relevance": 0.95,
+      "deleted": false
+    },
+    {
+      "item_id": "SPARKDOCK-FEED-20261016-nuget-certificate",
+      "title": "微软 NuGet 签名证书轮换：检查 CI 中的指纹白名单",
+      "summary": "栏目：近期回顾。阅读期日为2026-10-16；本次核验于2026-10-15，未将期日作为新闻发布日期。\n官方发布日期：2026-09-23；未取得准确发布时间及发布时区，时间字段留空。\n微软公告：最早从 9 月 23 日起切换 NuGet 包的作者签名证书。使用 trustedSigners 白名单或指定指纹验证的团队，需要检查新证书是否被允许。\n推荐理由与最小实验（编辑判断）：先检查仓库和构建环境的 nuget.config、签名验证脚本；按官方文档核对新指纹，并保留旧证书以验证既有包。\n风险与门槛：仅相关签名限制配置受影响；不要为消除 NU3034 错误直接关闭验证。本条是资料提醒，未修改任何构建或信任配置。\n核实状态：已阅读官方来源；未安装、运行或实测，不代表现场兼容性或生产适用性已验证。",
+      "source": ".NET Blog / The NuGet Team",
+      "category": "AI与工程技术资讯",
+      "source_url": "https://devblogs.microsoft.com/dotnet/microsoft-author-signing-certificate-update-2026/",
+      "source_published_at": null,
+      "verified_status": "SOURCE_CHECKED",
+      "tags": [
+        "近期回顾",
+        ".NET"
+      ],
+      "relevance": 0.95,
+      "deleted": false
+    }
+  ],
+  "checksum": "2c5d1f9c4da0aa2e6285ac6463e8defa7479e73553be61a9aadf64dafb17d6e0"
+}
